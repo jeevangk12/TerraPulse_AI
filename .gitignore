@@ -1,0 +1,19 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+
+# Local tool / browser profiles
+.taste-skill/
+.DS_Store

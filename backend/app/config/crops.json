@@ -1,0 +1,48 @@
+{
+  "rule_version": "0.1.0",
+  "threshold_status": "prototype_not_validated",
+  "weights": {
+    "drought": 0.35,
+    "heat": 0.30,
+    "excessive_rain": 0.20,
+    "soil_moisture_stress": 0.15
+  },
+  "crops": {
+    "Sugarcane": {
+      "rain_target_mm_7d": 35,
+      "heat_threshold_c": 35,
+      "heavy_rain_threshold_mm_day": 50,
+      "soil_moisture_min_m3_m3": 0.18
+    },
+    "Rice": {
+      "rain_target_mm_7d": 40,
+      "heat_threshold_c": 35,
+      "heavy_rain_threshold_mm_day": 50,
+      "soil_moisture_min_m3_m3": 0.20
+    },
+    "Ragi": {
+      "rain_target_mm_7d": 25,
+      "heat_threshold_c": 34,
+      "heavy_rain_threshold_mm_day": 40,
+      "soil_moisture_min_m3_m3": 0.15
+    },
+    "Maize": {
+      "rain_target_mm_7d": 25,
+      "heat_threshold_c": 35,
+      "heavy_rain_threshold_mm_day": 45,
+      "soil_moisture_min_m3_m3": 0.17
+    },
+    "Cotton": {
+      "rain_target_mm_7d": 20,
+      "heat_threshold_c": 35,
+      "heavy_rain_threshold_mm_day": 50,
+      "soil_moisture_min_m3_m3": 0.16
+    },
+    "Groundnut": {
+      "rain_target_mm_7d": 20,
+      "heat_threshold_c": 33,
+      "heavy_rain_threshold_mm_day": 40,
+      "soil_moisture_min_m3_m3": 0.17
+    }
+  }
+}

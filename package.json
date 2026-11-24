@@ -1,0 +1,12 @@
+{
+  "name": "terrapulse-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TerraPulse AI - Karnataka crop climate-risk dashboard (FastAPI backend + React/Vite frontend).",
+  "scripts": {
+    "dev:backend": "node .vscode/dev-start.mjs backend",
+    "dev:frontend": "node .vscode/dev-start.mjs frontend",
+    "install:frontend": "npm --prefix terrapulse-frontend install",
+    "build": "npm --prefix terrapulse-frontend run build"
+  }
+}
